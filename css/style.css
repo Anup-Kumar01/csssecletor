@@ -1,0 +1,132 @@
+.box{
+	margin-top: -70px;
+	width: 600px;
+	height: 200px;
+	background-color: rgba(00, 00, 00, 0.1);
+}
+
+.box h1{
+	color: red;
+}
+
+.firstname {
+  background-color: yellow;
+}
+input[type="text"] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type="text"]:focus {
+  width: 250px;
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+p::after { 
+  content: " - Remember this";
+}
+.broder h1{
+
+  border: 5px solid red;
+}
+.broder h2{
+  border: 4px dotted blue;
+}
+
+.broder p{
+ border: double;	
+}
+
+.newspaper1 {
+  columns: 100px 3;
+}
+.coursor{
+	.alias {cursor: alias;}
+	.all-scroll {cursor: all-scroll;}
+	.auto {cursor: auto;}
+	.cell {cursor: cell;}
+	.col-resize {cursor: col-resize;}
+	.context-menu {cursor: context-menu;}
+	.copy {cursor: copy;}
+	.crosshair {cursor: crosshair;}
+	.default {cursor: default;}
+	.e-resize {cursor: e-resize;}
+	.ew-resize {cursor: ew-resize;}
+	.grab {cursor: -webkit-grab; cursor: grab;}
+	.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+	.help {cursor: help;}
+	.move {cursor: move;}
+	.n-resize {cursor: n-resize;}
+	.ne-resize {cursor: ne-resize;}
+	.nesw-resize {cursor: nesw-resize;}
+	.ns-resize {cursor: ns-resize;}
+	.nw-resize {cursor: nw-resize;}
+	.nwse-resize {cursor: nwse-resize;}
+	.no-drop {cursor: no-drop;}
+	.none {cursor: none;}
+	.not-allowed {cursor: not-allowed;}
+	.pointer {cursor: pointer;}
+	.progress {cursor: progress;}
+	.row-resize {cursor: row-resize;}
+	.s-resize {cursor: s-resize;}
+	.se-resize {cursor: se-resize;}
+	.sw-resize {cursor: sw-resize;}
+	.text {cursor: text;}
+	.url {cursor: url(myBall.cur),auto;}
+	.w-resize {cursor: w-resize;}
+	.wait {cursor: wait;}
+	.zoom-in {cursor: zoom-in;}
+	.zoom-out {cursor: zoom-out;}
+}
+.displayproperty p{ 
+	color: red;
+}
+
+p.ex1 {display: none; }
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+
+.float img{
+  float: right;
+}
+
+/* nth_child section start  */
+.nth_child p:nth-child(2) {
+  background: red;
+}
+
+.nth_child ul li:nth-child(2) {
+  background: lightgreen;
+}
+.nth_child ul li:nth-child(3) {
+  background: yellow;
+}
+
+/* nth_child section start  */
+/*hover section start*/
+.hover a:hover {
+  background-color: yellow;
+/*hover section end*/
+
+/* terget section start */
+.target a:terget{
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+/* terget section start */
